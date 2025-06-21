@@ -1,0 +1,94 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  background-color: #FAF3E0;
+  color: #2E2E2E; 
+}
+
+/* Encabezado */
+header 
+{
+  background-color: #4E342E;
+  color: #F5F5DC;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+ height: 100px;
+ width: 100px;
+ margin: 0 auto 10px;
+}
+
+.Encabezado {
+  font-size:xx-large;
+  margin: 0;
+}
+
+/* Menú */
+.menu {
+  margin-top: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #F5F5DC; 
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background-color: #D7CCC8; 
+  padding: 30px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: larger;
+  color: #7B1E1E; 
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #F5F5DC; /* beige */
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2, section h3, section h1 
+{
+  color: #7B1E1E; 
+}
+
+/* Artículos */
+article {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+article img {
+  height: 230px;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #4E342E;
+  color: #F5F5DC;
+  text-align: center;
+  padding: 20px;
+  font-size: small;
+}
+
+footer a {
+  color: #F5F5DC; 
+  text-decoration: underline;
+}
